@@ -8,6 +8,7 @@
 
 #import "POPBacisAniOneViewController.h"
 #import <POP.h>
+#import "UIView+Animation.h"
 @interface POPBacisAniOneViewController ()
 
 @end
@@ -20,6 +21,16 @@ BOOL    easeMode;
     // Do any additional setup after loading the view.
     frame = self.myLabel.frame;
     easeMode = YES;
+    UITapGestureRecognizer *tap = [[UITapGestureRecognizer alloc]initWithTarget:self action:@selector(click1)];
+    tap.numberOfTouchesRequired = 1;
+    
+    [self.myImageView addGestureRecognizer:tap];
+    [self.view addGestureRecognizer:tap];
+}
+
+-(void) click1 {
+    [self.myImageView animateSizeForView:self.myImageView];
+    NSLog(@"1");
 }
 
 - (void)didReceiveMemoryWarning {
@@ -58,7 +69,8 @@ BOOL    easeMode;
 
 
 - (IBAction)horiMove:(UIButton *)sender {
-    [self basicAnimation];
+    //[self basicAnimation];
+    [self.myButton animateSizeForView:self.myButton];
     
 }
 

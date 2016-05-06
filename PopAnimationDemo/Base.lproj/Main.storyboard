@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10116" systemVersion="15E65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="1ri-co-UcQ">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="15E65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="1ri-co-UcQ">
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
@@ -56,7 +56,10 @@
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MYY-hK-ZT1">
                                 <rect key="frame" x="16" y="505" width="68" height="30"/>
-                                <state key="normal" title="horizontal"/>
+                                <color key="backgroundColor" red="1" green="0.20781345670000001" blue="0.31538865129999999" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="horizontal">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
                                 <connections>
                                     <action selector="horiMove:" destination="a3u-RG-b0u" eventType="touchUpInside" id="h7q-Ta-xD4"/>
                                 </connections>
@@ -94,11 +97,17 @@
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="aje-fn-asw">
+                                <rect key="frame" x="115" y="136" width="240" height="128"/>
+                                <color key="backgroundColor" red="1" green="0.20781345670000001" blue="0.31538865129999999" alpha="1" colorSpace="calibratedRGB"/>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
                     <connections>
+                        <outlet property="myButton" destination="MYY-hK-ZT1" id="Drg-xw-lMj"/>
+                        <outlet property="myImageView" destination="aje-fn-asw" id="hTX-fd-nYb"/>
                         <outlet property="myLabel" destination="2Zj-YI-70D" id="4uR-yI-unn"/>
                     </connections>
                 </viewController>

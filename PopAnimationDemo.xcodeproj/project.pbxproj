@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		04D9A3789FEC4A8ED31002CE /* libPods-PopAnimationDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E816EE41CF86EA1D6B32FB0A /* libPods-PopAnimationDemo.a */; };
+		8F6048EF1CDC39FA005C927F /* UIView+Animation.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F6048EE1CDC39FA005C927F /* UIView+Animation.m */; };
 		8F6374741CDAF6B8004CB831 /* PanViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F6374731CDAF6B8004CB831 /* PanViewController.m */; };
 		8F6374771CDB1368004CB831 /* DecayViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F6374761CDB1368004CB831 /* DecayViewController.m */; };
 		8F63747A1CDB2617004CB831 /* ButtonExpandViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F6374791CDB2617004CB831 /* ButtonExpandViewController.m */; };
@@ -41,6 +42,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		8F6048ED1CDC39FA005C927F /* UIView+Animation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Animation.h"; sourceTree = "<group>"; };
+		8F6048EE1CDC39FA005C927F /* UIView+Animation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Animation.m"; sourceTree = "<group>"; };
 		8F6374721CDAF6B8004CB831 /* PanViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PanViewController.h; sourceTree = "<group>"; };
 		8F6374731CDAF6B8004CB831 /* PanViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PanViewController.m; sourceTree = "<group>"; };
 		8F6374751CDB1368004CB831 /* DecayViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DecayViewController.h; sourceTree = "<group>"; };
@@ -141,6 +144,8 @@
 				8F6374761CDB1368004CB831 /* DecayViewController.m */,
 				8F6374781CDB2617004CB831 /* ButtonExpandViewController.h */,
 				8F6374791CDB2617004CB831 /* ButtonExpandViewController.m */,
+				8F6048ED1CDC39FA005C927F /* UIView+Animation.h */,
+				8F6048EE1CDC39FA005C927F /* UIView+Animation.m */,
 				8F6F65641CD9A8AA00FC64E1 /* POPBacisAniOneViewController.h */,
 				8F6F65651CD9A8AA00FC64E1 /* POPBacisAniOneViewController.m */,
 				8F6F65671CD9E95C00FC64E1 /* SpringAniViewController.h */,
@@ -373,6 +378,7 @@
 				8F6374741CDAF6B8004CB831 /* PanViewController.m in Sources */,
 				8F6374771CDB1368004CB831 /* DecayViewController.m in Sources */,
 				8F63747A1CDB2617004CB831 /* ButtonExpandViewController.m in Sources */,
+				8F6048EF1CDC39FA005C927F /* UIView+Animation.m in Sources */,
 				8F6F65331CD99DA000FC64E1 /* AppDelegate.m in Sources */,
 				8F6F65301CD99DA000FC64E1 /* main.m in Sources */,
 				8F6F65631CD99E9000FC64E1 /* AniTableViewController.m in Sources */,

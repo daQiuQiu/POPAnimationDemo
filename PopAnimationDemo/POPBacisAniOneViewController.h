@@ -9,6 +9,8 @@
 #import <UIKit/UIKit.h>
 
 @interface POPBacisAniOneViewController : UIViewController
+@property (strong, nonatomic) IBOutlet UIImageView *myImageView;
+@property (strong, nonatomic) IBOutlet UIButton *myButton;
 @property (strong, nonatomic) IBOutlet UILabel *myLabel;
 - (IBAction)horiMove:(UIButton *)sender;
 - (IBAction)vertMove:(UIButton *)sender;
