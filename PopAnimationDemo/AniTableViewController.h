@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  AniTableViewController.h
 //  PopAnimationDemo
 //
 //  Created by 易仁 on 16/5/4.
@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
+@interface AniTableViewController : UITableViewController
 
 @end
-
